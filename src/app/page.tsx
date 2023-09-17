@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Home() {
   return (
     <div className="_main w-full h-full">
@@ -54,14 +56,14 @@ export default function Home() {
       </div>
     </section>
 
-    <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 ">
+    <section id="experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 ">
     <div className=" sticky top-0 z-20 bg-slate-900/75 backdrop-blur md:mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto">
         <h2 className="text-xl text-slate-300">Experience</h2>
       </div>
 
       <div className="pt-8 px-4 experience_company">
           <p className="text-slate-300 text-sm py-2">Aug 2022 - Present</p>
-          <p className="text-xl text-slate-200 font-bold py-1">Frontend Engineer, <a href="#" target="_blank">HMX Media </a></p>
+          <p className="text- text-slate-200 font-bold py-1">Frontend Engineer, <a href="#" target="_blank"><span className="inline-block">HMX Media<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span> </a></p>
           <p className="text-slate-300 py-2 ">Collaborated with the product team, Backend team, and Design team to design, build, test, and
                                                 improve the product using agile methodologies and tools such as Jira, Ftrack etc.</p>
 
@@ -122,7 +124,8 @@ export default function Home() {
 
       <div className="pt-8 px-4 experience_company">
           <p className="text-slate-300 text-sm py-2">Dec 2021 - May 2022</p>
-          <p className="text-xl text-slate-200 font-bold py-1">Web Developer Intern, <a href="#" target="_blank">Shivila Technologies</a></p>
+          <p className="text- text-slate-200 font-bold py-1">Web Developer Intern,<a href="#" target="_blank"><span className="inline-block">Shivila Technologies<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span> </a></p>
+         
           <p className="text-slate-300 py-2 ">worked as a ReactJs intern, worked on data-driven frontend-facing websites. </p>
 
           <p className="text-slate-300 py-2 "> Technologies used as react-redux, Tailwind CSS, auth2.0, firebase etc</p>
@@ -166,6 +169,44 @@ export default function Home() {
               </li>
 
           </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+        <div className=" sticky top-0 z-20 bg-slate-900/75 backdrop-blur md:mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto">
+        <h2 className="text-xl text-slate-300">Projects</h2>
+      </div>
+      <div className="pt-8 px-4 project_card">
+  
+          <p className=" text-slate-200 font-bold py-1"> <a href="#" target="_blank" className="text-lg"><span className="inline-block">BlogBrief<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span> </a></p>
+          <ul className="py-2 px-2 ">
+            <li className="text-sm py-2  text-slate-300">Simplify blog reading with concise summaries.</li>
+            <li className="text-sm py-2  text-slate-300">Extract key information from lengthy articles, saving time while staying informed.</li>
+          </ul>
+
+          <ul className="flex skills flex-wrap mt-2">
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+            ReactJs
+                </div>
+              </li>
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+           Tailwind-CSS
+                </div>
+              </li>
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+           Redux Toolkit Query
+                </div>
+              </li>
+
+          </ul>
+
+          <Image src="/assets/blog_brief.webp" alt="project_snapshot" width={300} height={48} className="py-4 rounded bg-transparent" />
       </div>
     </section>
 
