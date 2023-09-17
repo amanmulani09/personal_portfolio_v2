@@ -176,10 +176,23 @@ export default function Home() {
         <div className=" sticky top-0 z-20 bg-slate-900/75 backdrop-blur md:mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto">
         <h2 className="text-xl text-slate-300">Projects</h2>
       </div>
+
       <div className="pt-8 px-4 project_card">
   
-          <p className=" text-slate-200 font-bold py-1"> <a href="#" target="_blank" className="text-lg"><span className="inline-block">BlogBrief<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span> </a></p>
-          <ul className="py-2 px-2 ">
+          <p className=" text-slate-200 font-bold py-1"> <a href="https://blogbrief.netlify.app/" target="_blank" className="text-lg"><span className="inline-block">BlogBrief<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span> </a></p>
+            <div id="actionButtons" className="flex">
+           <ul className="py-2 px-2 ">
+
+           <li className="mr-5 text-xs"> 
+            <a href="https://github.com/amanmulani09/BlogBrief"  target="_blank" className="block hover:text-slate-200 text-slate-400">
+              <span className="sr-only">GitHub</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-6 w-6" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+            </a> 
+            </li>
+
+           </ul>
+            </div>
+          <ul className="py-2">
             <li className="text-sm py-2  text-slate-300">Simplify blog reading with concise summaries.</li>
             <li className="text-sm py-2  text-slate-300">Extract key information from lengthy articles, saving time while staying informed.</li>
           </ul>
@@ -208,6 +221,192 @@ export default function Home() {
 
           <Image src="/assets/blog_brief.webp" alt="project_snapshot" width={300} height={48} className="py-4 rounded bg-transparent" />
       </div>
+
+      <div className="pt-8 px-4 project_card">
+  
+          <p className=" text-slate-200 font-bold py-1"> <a href="https://webhubnew.netlify.app/" target="_blank" className="text-lg"><span className="inline-block">WebHub<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span> </a></p>
+          <div id="actionButtons" className="flex">
+           <ul className="py-2 px-2 ">
+
+           <li className="mr-5 text-xs"> 
+            <a href="https://github.com/amanmulani09/webHub"  target="_blank" className="block hover:text-slate-200 text-slate-400">
+              <span className="sr-only">GitHub</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-6 w-6" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+            </a> 
+            </li>
+            
+           </ul>
+            </div>
+          <ul className="py-2">
+            <li className="text-sm py-2  text-slate-300">A cutting-edge video streaming platform tailored for developers. Discover high-quality tutorials on various
+                tools and technologies.
+                </li>
+            <li className="text-sm py-2  text-slate-300">featuring user-friendly features like category-based video filtering, search functionality, like and watch
+                later management. </li>
+          </ul>
+
+          <ul className="flex skills flex-wrap mt-2">
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+            ReactJs
+                </div>
+              </li>
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+           React Router
+                </div>
+              </li>
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+           Material-UI
+                </div>
+              </li>
+
+          </ul>
+
+          <Image src="/assets/webhub.webp" alt="project_snapshot" width={300} height={48} className="py-4 rounded bg-transparent" />
+      </div>
+
+      <div className="pt-8 px-4 project_card">
+  
+          <p className=" text-slate-200 font-bold py-1"> <a href="https://github.com/amanmulani09/codepen-clone" target="_blank" className="text-lg"><span className="inline-block">Code-Pen Clone<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span> </a></p>
+          <div id="actionButtons" className="flex">
+           <ul className="py-2 px-2 ">
+
+           <li className="mr-5 text-xs"> 
+            <a href="https://github.com/amanmulani09/codepen-clone"  target="_blank" className="block hover:text-slate-200 text-slate-400">
+              <span className="sr-only">GitHub</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-6 w-6" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+            </a> 
+            </li>
+            
+           </ul>
+            </div>
+          <ul className="py-2">
+            <li className="text-sm py-2  text-slate-300">A dynamic code sharing platform inspired by CodePen, developed using Next.js
+                </li>
+            <li className="text-sm py-2  text-slate-300">Experience seamless code with real-time previews, syntax highlighting, and customizable layouts </li>
+          </ul>
+
+          <ul className="flex skills flex-wrap mt-2">
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+            NextJs
+                </div>
+              </li>
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+           API
+                </div>
+              </li>
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+       Tailwind-CSS
+                </div>
+              </li>
+
+          </ul>
+
+          <Image src="/assets/codepen.webp" alt="project_snapshot" width={300} height={48} className="py-4 rounded bg-transparent" />
+      </div>
+
+      <div className="pt-8 px-4 project_card">
+  
+          <p className=" text-slate-200 font-bold py-1"> <a href="https://crytoverselatest.netlify.app/" target="_blank" className="text-lg"><span className="inline-block">CryptoVerse<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span> </a></p>
+          <div id="actionButtons" className="flex">
+           <ul className="py-2 px-2 ">
+
+           <li className="mr-5 text-xs"> 
+            <a href="https://github.com/amanmulani09/cryptoverse"  target="_blank" className="block hover:text-slate-200 text-slate-400">
+              <span className="sr-only">GitHub</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-6 w-6" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+            </a> 
+            </li>
+            
+           </ul>
+            </div>
+          <ul className="py-2">
+            <li className="text-sm py-2  text-slate-300">An Infographic web application which provides features including real-time data tracking, detailed
+information lookup, and trend analysis for various cryptocurrencies
+                </li>
+          </ul>
+
+          <ul className="flex skills flex-wrap mt-2">
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+          ReactJs
+                </div>
+              </li>
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+           Redux-Toolkit
+                </div>
+              </li>
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+          ANT-Design
+                </div>
+              </li>
+
+          </ul>
+
+          <Image src="/assets/cryptoverse.webp" alt="project_snapshot" width={300} height={48} className="py-4 rounded bg-transparent" />
+      </div>
+
+      <div className="pt-8 px-4 project_card">
+  
+          <p className=" text-slate-200 font-bold py-1"> <a href="https://github.com/amanmulani09/RGB_To_Hex-converter-Chrome-Extension" target="_blank" className="text-lg"><span className="inline-block">RGB_To_Hex-converter-Chrome-Extension<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span> </a></p>
+          <div id="actionButtons" className="flex">
+           <ul className="py-2 px-2 ">
+
+           <li className="mr-5 text-xs"> 
+            <a href="https://github.com/amanmulani09/RGB_To_Hex-converter-Chrome-Extension"  target="_blank" className="block hover:text-slate-200 text-slate-400">
+              <span className="sr-only">GitHub</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="h-6 w-6" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+            </a> 
+            </li>
+            
+           </ul>
+            </div>
+          <ul className="py-2">
+            <li className="text-sm py-2  text-slate-300">A Simple Chrome Extension for making your Development Experience Better ✌
+                </li>
+          </ul>
+
+          <ul className="flex skills flex-wrap mt-2">
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+          JavScript
+                </div>
+              </li>
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+            JSON
+                </div>
+              </li>
+
+              <li className="mt-2 mr-1.5">
+                <div className="text-teal-300 rounded-full leading-5 flex items-center bg-teal-400/10 px-3 py-1 font-medium text-xs">
+          Tailwind-CSS
+                </div>
+              </li>
+
+          </ul>
+
+          <Image src="/assets/RGB_TO_HEX.webp" alt="project_snapshot" width={300} height={48} className="py-4 rounded bg-transparent" />
+      </div>
+
     </section>
 
     </main>
