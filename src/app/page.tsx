@@ -2,13 +2,16 @@ import Image from "next/image"
 
 export default function Home() {
   return (
-    <div className="_main w-full h-full">
-   <main className="_main_container px-6 py-8">
-      <header>
+    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <main className="_main_container lg:flex lg:justify-between lg:gap-4">
+      <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
         <div className="personal_heading ">
-        <h3 className="text-slate-200 text-4xl font-bold tracking-tight">Aman Mulani</h3>
-        <p className="text-slate-300 text-lg font-bold mt-2">FrontEnd Engineer at HMX </p>
-        <p className="text-slate-400 leading-normal mt-4 text-sm">I build accessible, inclusive products and digital experiences for the web.</p>
+          <h3 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">Aman Mulani</h3>
+          <p className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">FrontEnd Engineer at HMX </p>
+          <p className="mt-4 max-w-xs leading-normal text-slate-300">I build accessible, inclusive products and digital experiences for the web.</p>
+          <nav className="nav hidden lg:block" aria-label="In-page jump links"><ul className="mt-16 w-max"><li><a className="group flex items-center py-3 active" href="#about"><span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span><span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span></a></li><li><a className="group flex items-center py-3" href="#experience"><span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span><span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Experience</span></a></li><li><a className="group flex items-center py-3" href="#projects"><span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span><span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span></a></li></ul></nav>
+          <p className="mt-3 px-2 font-bold text-lg rounded bg-transparent text-slate-200 border-dashed border-slate-300"><a href="https://drive.google.com/file/d/1p1d3PETpGIsEBPDpS0Ozx0BLop4gmXC1/view?usp=sharing" >View Resume</a> </p>
+       
         </div>
           <ul className="ml-1 mt-8 flex items-center">
           <li className="mr-5 text-xs"> 
@@ -42,7 +45,7 @@ export default function Home() {
           </ul>
       </header>
 
-    <main className="_main_content pt-24" >
+    <main className="_main_content pt-24 lg:w-1/2 lg:py-24" >
 
     <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24 ">
       <div className=" sticky top-0 z-20 bg-slate-900/75 backdrop-blur md:mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto">
@@ -61,7 +64,7 @@ export default function Home() {
         <h2 className="text-xl text-slate-300">Experience</h2>
       </div>
 
-      <div className="pt-8 px-4 experience_company">
+      <div className="pt-8 px-4 experience_company ">
           <p className="text-slate-300 text-sm py-2">Aug 2022 - Present</p>
           <p className="text- text-slate-200 font-bold py-1">Frontend Engineer, <a href="#" target="_blank"><span className="inline-block">HMX Media<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span> </a></p>
           <p className="text-slate-300 py-2 ">Collaborated with the product team, Backend team, and Design team to design, build, test, and
@@ -423,18 +426,18 @@ information lookup, and trend analysis for various cryptocurrencies
       </div>
 
       <div className="py-4 px-2 flex blog_post">
-        <Image src="/assets/blog_1.png" alt="blog_description" width={100} height={100} />
+        <Image src="/assets/blog_2.webp"alt="blog_description" width={100} height={100} />
         <div id="blog_desc" className="px-4">
-          <p className="px-2 py-2 text-slate-300">Aug 2022</p>
-          <p className="px-1 py-2 text-slate-200 text-md font-bold"> <a href="https://medium.com/@amanmulani/the-star-of-react-router-dom-c654d3420d2c" target="_blank">   The STAR 🌟of React-Router-Dom. <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg> </a> </p>
+          <p className="px-2 py-2 text-slate-300">Aug 2023</p>
+          <p className="px-1 py-2 text-slate-200 text-md font-bold"> <a href="https://medium.com/@amanmulani/es6-features-you-need-to-learn-before-jumping-into-react-or-any-other-javascript-frontend-framework-c7164db30b8e" target="_blank">ES6 Features You Need to Learn Before Jumping into React or any other JavaScript frontend framework.<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg> </a> </p>
         </div>
       </div>
 
       <div className="py-4 px-2 flex blog_post">
-        <Image src="/assets/blog_1.png" alt="blog_description" width={100} height={100} />
+        <Image src="/assets/blog_3.webp" alt="blog_description" width={100} height={100} />
         <div id="blog_desc" className="px-4">
-          <p className="px-2 py-2 text-slate-300">Aug 2022</p>
-          <p className="px-1 py-2 text-slate-200 text-md font-bold"> <a href="https://medium.com/@amanmulani/the-star-of-react-router-dom-c654d3420d2c" target="_blank">   The STAR 🌟of React-Router-Dom. <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg> </a> </p>
+          <p className="px-2 py-2 text-slate-300">Feb 2023</p>
+          <p className="px-1 py-2 text-slate-200 text-md font-bold"> <a href="https://medium.com/@amanmulani/react-custom-hooks-understanding-and-implementing-your-own-hooks-d549f6290001" target="_blank"> React Custom Hooks: Understanding and Implementing Your Own Hooks🎣 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg> </a> </p>
         </div>
       </div>
 
