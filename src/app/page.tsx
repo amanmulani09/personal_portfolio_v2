@@ -64,7 +64,7 @@ export default function Home() {
         <h2 className="text-xl text-slate-300">Experience</h2>
       </div>
 
-      <div className="pt-8 px-4 experience_company ">
+      <div className="pt-8 px-4 experience_company  cursor-pointer ">
           <p className="text-slate-300 text-sm py-2">Aug 2022 - Present</p>
           <p className="text- text-slate-200 font-bold py-1">Frontend Engineer, <a href="#" target="_blank"><span className="inline-block">HMX Media<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span> </a></p>
           <p className="text-slate-300 py-2 ">Collaborated with the product team, Backend team, and Design team to design, build, test, and
@@ -125,7 +125,7 @@ export default function Home() {
           </ul>
       </div>
 
-      <div className="pt-8 px-4 experience_company">
+      <div className="pt-8 px-4 experience_company cursor-pointer">
           <p className="text-slate-300 text-sm py-2">Dec 2021 - May 2022</p>
           <p className="text- text-slate-200 font-bold py-1">Web Developer Intern,<a href="#" target="_blank"><span className="inline-block">Shivila Technologies<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></span> </a></p>
          
